@@ -1,0 +1,657 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "gpt2_transformer_hierarchy",
+        "label": "GPT-2 Transformer Stack",
+        "nodes": [
+          "gpt2_pytorch_gpt2model",
+          "gpt2_pytorch_block",
+          "gpt2_pytorch_causalselfattention",
+          "gpt2_pytorch_mlp"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.95,
+        "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "gpt2_pytorch.py",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L1",
+      "id": "gpt2_pytorch_py",
+      "community": 1,
+      "norm_label": "gpt2_pytorch.py"
+    },
+    {
+      "label": "GPT2Config",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L15",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_gpt2config",
+      "community": 1,
+      "norm_label": "gpt2config"
+    },
+    {
+      "label": "CausalSelfAttention",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L26",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention",
+      "community": 0,
+      "norm_label": "causalselfattention"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L27",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L37",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "MLP",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L66",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_mlp",
+      "community": 0,
+      "norm_label": "mlp"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L67",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_mlp_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L74",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_mlp_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "Block",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L78",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_block",
+      "community": 1,
+      "norm_label": "block"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L79",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_block_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L86",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_block_forward",
+      "community": 1,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "GPT2Model",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L92",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model",
+      "community": 1,
+      "norm_label": "gpt2model"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L93",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L105",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_forward",
+      "community": 1,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "Minimal GPT-2 (124M) architecture in PyTorch.  This is a pedagogical implement",
+      "file_type": "rationale",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L1",
+      "id": "gpt_2_from_first_principles_gpt2_pytorch_rationale_1",
+      "community": 1,
+      "norm_label": "minimal gpt-2 (124m) architecture in pytorch.  this is a pedagogical implement"
+    },
+    {
+      "label": "hf_inference.py",
+      "file_type": "code",
+      "source_file": "hf_inference.py",
+      "source_location": "L1",
+      "id": "hf_inference_py",
+      "community": 3,
+      "norm_label": "hf_inference.py"
+    },
+    {
+      "label": "generate()",
+      "file_type": "code",
+      "source_file": "hf_inference.py",
+      "source_location": "L10",
+      "id": "gpt_2_from_first_principles_hf_inference_generate",
+      "community": 3,
+      "norm_label": "generate()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "hf_inference.py",
+      "source_location": "L36",
+      "id": "gpt_2_from_first_principles_hf_inference_main",
+      "community": 3,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Hugging Face-backed inference helper for GPT-2 (124M).  This script uses `tran",
+      "file_type": "rationale",
+      "source_file": "hf_inference.py",
+      "source_location": "L1",
+      "id": "gpt_2_from_first_principles_hf_inference_rationale_1",
+      "community": 3,
+      "norm_label": "hugging face-backed inference helper for gpt-2 (124m).  this script uses `tran"
+    },
+    {
+      "label": "GPT2Config",
+      "file_type": "code",
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": 12,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "gpt2_pytorch_gpt2config",
+      "community": 4,
+      "norm_label": "gpt2config"
+    },
+    {
+      "label": "CausalSelfAttention",
+      "file_type": "code",
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": 24,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "gpt2_pytorch_causalselfattention",
+      "community": 2,
+      "norm_label": "causalselfattention"
+    },
+    {
+      "label": "MLP",
+      "file_type": "code",
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": 65,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "gpt2_pytorch_mlp",
+      "community": 2,
+      "norm_label": "mlp"
+    },
+    {
+      "label": "Block",
+      "file_type": "code",
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": 78,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "gpt2_pytorch_block",
+      "community": 2,
+      "norm_label": "block"
+    },
+    {
+      "label": "GPT2Model",
+      "file_type": "code",
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": 91,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "A pedagogical implementation matching the GPT-2 124M (small) configuration, intended for study and experimentation rather than production performance.",
+      "id": "gpt2_pytorch_gpt2model",
+      "community": 2,
+      "norm_label": "gpt2model"
+    },
+    {
+      "label": "generate",
+      "file_type": "code",
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/hf_inference.py",
+      "source_location": 9,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "hf_inference_generate",
+      "community": 2,
+      "norm_label": "generate"
+    },
+    {
+      "label": "GPT-2 \u2014 From First Principles",
+      "file_type": "document",
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/README.md",
+      "source_location": 1,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_gpt2_first_principles",
+      "community": 2,
+      "norm_label": "gpt-2 \u2014 from first principles"
+    },
+    {
+      "label": "GPT2LMHeadModel",
+      "file_type": "code",
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/hf_inference.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "transformers_gpt2lmheadmodel",
+      "community": 2,
+      "norm_label": "gpt2lmheadmodel"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "gpt2_pytorch_py",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_gpt2config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "gpt2_pytorch_py",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "gpt2_pytorch_py",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_mlp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "gpt2_pytorch_py",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "gpt2_pytorch_py",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_rationale_1",
+      "target": "gpt2_pytorch_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention_forward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_block_init",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_causalselfattention_init",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_mlp",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_mlp_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_mlp",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_mlp_forward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_block_init",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_mlp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_block_forward",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_mlp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_mlp_init",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_block",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_block_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_block",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_block_forward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_init",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_forward",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_block_init",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "gpt2_pytorch.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model",
+      "target": "gpt_2_from_first_principles_gpt2_pytorch_gpt2model_forward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hf_inference.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "hf_inference_py",
+      "target": "gpt_2_from_first_principles_hf_inference_generate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hf_inference.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "hf_inference_py",
+      "target": "gpt_2_from_first_principles_hf_inference_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "hf_inference.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_hf_inference_rationale_1",
+      "target": "hf_inference_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hf_inference.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "gpt_2_from_first_principles_hf_inference_main",
+      "target": "gpt_2_from_first_principles_hf_inference_generate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": 81,
+      "weight": 1.0,
+      "source": "gpt2_pytorch_block",
+      "target": "gpt2_pytorch_causalselfattention"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": 83,
+      "weight": 1.0,
+      "source": "gpt2_pytorch_block",
+      "target": "gpt2_pytorch_mlp"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": 98,
+      "weight": 1.0,
+      "source": "gpt2_pytorch_gpt2model",
+      "target": "gpt2_pytorch_block"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py",
+      "source_location": null,
+      "weight": 0.9,
+      "source": "gpt2_pytorch_gpt2model",
+      "target": "transformers_gpt2lmheadmodel"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/README.md",
+      "source_location": 3,
+      "weight": 1.0,
+      "source": "readme_gpt2_first_principles",
+      "target": "gpt2_pytorch_gpt2model"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/hf_inference.py",
+      "source_location": 11,
+      "weight": 1.0,
+      "source": "hf_inference_generate",
+      "target": "transformers_gpt2lmheadmodel"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/README.md",
+      "source_location": 4,
+      "weight": 1.0,
+      "source": "readme_gpt2_first_principles",
+      "target": "hf_inference_generate"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "gpt2_transformer_hierarchy",
+      "label": "GPT-2 Transformer Stack",
+      "nodes": [
+        "gpt2_pytorch_gpt2model",
+        "gpt2_pytorch_block",
+        "gpt2_pytorch_causalselfattention",
+        "gpt2_pytorch_mlp"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "D:/MyGPT2/GPT-2_from_first_principles/gpt2_pytorch.py"
+    }
+  ]
+}

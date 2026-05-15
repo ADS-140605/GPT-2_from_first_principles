@@ -1,0 +1,4 @@
+D:\MyGPT2\GPT-2_from_first_principles\gpt2_pytorch.py
+D:\MyGPT2\GPT-2_from_first_principles\hf_inference.py
+D:\MyGPT2\GPT-2_from_first_principles\README.md
+D:\MyGPT2\GPT-2_from_first_principles\requirements.txt
