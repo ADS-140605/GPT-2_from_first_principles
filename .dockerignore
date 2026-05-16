@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+.env
+.cache/
+venv/
+*.pyc
+*.pyo
+*.pt
+.git
+dist/
+build/
+C:\Users\Asus\.cache\huggingface\hub
